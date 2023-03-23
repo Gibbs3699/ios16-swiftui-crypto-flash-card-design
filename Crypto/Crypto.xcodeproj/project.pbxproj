@@ -13,6 +13,7 @@
 		DC98E14129C83F530050877C /* NetworkingManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E14029C83F530050877C /* NetworkingManager.swift */; };
 		DC98E16329CB53FC0050877C /* CoinDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E16229CB53FC0050877C /* CoinDataService.swift */; };
 		DC98E16529CB54530050877C /* LocalFileManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E16429CB54530050877C /* LocalFileManager.swift */; };
+		DC98E16929CC543B0050877C /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E16829CC543B0050877C /* CardViewModel.swift */; };
 		DCC311FE29C6079C00E23278 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC311FD29C6079C00E23278 /* CryptoApp.swift */; };
 		DCC3120029C6079C00E23278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC311FF29C6079C00E23278 /* ContentView.swift */; };
 		DCC3120229C6079F00E23278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3120129C6079F00E23278 /* Assets.xcassets */; };
@@ -26,6 +27,7 @@
 		DC98E14029C83F530050877C /* NetworkingManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkingManager.swift; sourceTree = "<group>"; };
 		DC98E16229CB53FC0050877C /* CoinDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinDataService.swift; sourceTree = "<group>"; };
 		DC98E16429CB54530050877C /* LocalFileManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalFileManager.swift; sourceTree = "<group>"; };
+		DC98E16829CC543B0050877C /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		DCC311FA29C6079C00E23278 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC311FD29C6079C00E23278 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
 		DCC311FF29C6079C00E23278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -47,6 +49,8 @@
 		DC98E13529C7480D0050877C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				DC98E16729CC54230050877C /* ViewModel */,
+				DC98E16629CC541A0050877C /* View */,
 				DC98E13629C7482F0050877C /* CardView.swift */,
 			);
 			path = Views;
@@ -83,6 +87,21 @@
 				DC98E16429CB54530050877C /* LocalFileManager.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DC98E16629CC541A0050877C /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		DC98E16729CC54230050877C /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				DC98E16829CC543B0050877C /* CardViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		DCC311F129C6079C00E23278 = {
@@ -203,6 +222,7 @@
 				DC98E13729C7482F0050877C /* CardView.swift in Sources */,
 				DCC311FE29C6079C00E23278 /* CryptoApp.swift in Sources */,
 				DC98E16529CB54530050877C /* LocalFileManager.swift in Sources */,
+				DC98E16929CC543B0050877C /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
