@@ -9,9 +9,14 @@ import SwiftUI
 
 @main
 struct CryptoApp: App {
+    @StateObject private var vm = CardViewModel()
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                CardView()
+            }
+            .environmentObject(vm)
         }
     }
 }

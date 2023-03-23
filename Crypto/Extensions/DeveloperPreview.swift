@@ -17,6 +17,8 @@ class DeveloperPreview {
     
     static let instance = DeveloperPreview()
     
+    let cardVM = CardViewModel()
+    
     private init() { }
     
     let coin = CoinModel(
