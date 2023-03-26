@@ -16,6 +16,7 @@
 		DC98E16929CC543B0050877C /* CardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E16829CC543B0050877C /* CardViewModel.swift */; };
 		DC98E16B29CF3A060050877C /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E16A29CF3A060050877C /* Color.swift */; };
 		DC98E16D29D0A50B0050877C /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E16C29D0A50B0050877C /* HomeView.swift */; };
+		DC98E17129D0AB030050877C /* CircleButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E17029D0AB030050877C /* CircleButtonView.swift */; };
 		DCC311FE29C6079C00E23278 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC311FD29C6079C00E23278 /* CryptoApp.swift */; };
 		DCC3120029C6079C00E23278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC311FF29C6079C00E23278 /* ContentView.swift */; };
 		DCC3120229C6079F00E23278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3120129C6079F00E23278 /* Assets.xcassets */; };
@@ -32,6 +33,7 @@
 		DC98E16829CC543B0050877C /* CardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewModel.swift; sourceTree = "<group>"; };
 		DC98E16A29CF3A060050877C /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		DC98E16C29D0A50B0050877C /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		DC98E17029D0AB030050877C /* CircleButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonView.swift; sourceTree = "<group>"; };
 		DCC311FA29C6079C00E23278 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC311FD29C6079C00E23278 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
 		DCC311FF29C6079C00E23278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		DC98E16F29D0A65D0050877C /* Components */ = {
 			isa = PBXGroup;
 			children = (
+				DC98E17029D0AB030050877C /* CircleButtonView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -242,6 +245,7 @@
 				DC98E16B29CF3A060050877C /* Color.swift in Sources */,
 				DCC3120029C6079C00E23278 /* ContentView.swift in Sources */,
 				DC98E16D29D0A50B0050877C /* HomeView.swift in Sources */,
+				DC98E17129D0AB030050877C /* CircleButtonView.swift in Sources */,
 				DC98E14129C83F530050877C /* NetworkingManager.swift in Sources */,
 				DC98E13729C7482F0050877C /* CardView.swift in Sources */,
 				DCC311FE29C6079C00E23278 /* CryptoApp.swift in Sources */,
