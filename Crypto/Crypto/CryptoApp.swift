@@ -14,8 +14,9 @@ struct CryptoApp: App {
     var body: some Scene {
         WindowGroup {
             NavigationView {
-                CardView()
+                HomeView()
             }
+            .navigationBarHidden(true)
             .environmentObject(vm)
         }
     }
