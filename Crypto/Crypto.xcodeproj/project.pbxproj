@@ -53,8 +53,8 @@
 		DC98E13529C7480D0050877C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				DC98E16729CC54230050877C /* ViewModel */,
-				DC98E16629CC541A0050877C /* View */,
+				DC98E16F29D0A65D0050877C /* Components */,
+				DC98E16E29D0A64B0050877C /* Core */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -108,6 +108,22 @@
 				DC98E16829CC543B0050877C /* CardViewModel.swift */,
 			);
 			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		DC98E16E29D0A64B0050877C /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				DC98E16729CC54230050877C /* ViewModel */,
+				DC98E16629CC541A0050877C /* View */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		DC98E16F29D0A65D0050877C /* Components */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Components;
 			sourceTree = "<group>";
 		};
 		DCC311F129C6079C00E23278 = {
