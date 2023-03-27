@@ -36,17 +36,22 @@ extension HomeView {
     
     var homeView: some View {
         HStack {
-            CircleButtonView(iconName: showPortfolio ? "plus" : "info")
-                .animation(.none, value: 0)
-                .background(
-                    CircleButtonAnimation(animate: $showPortfolio)
-                )
+            HStack(spacing: 0) {
+                LottieView(lottieFile: "coin", loopMode: .loop)
+                    .frame(width: 120, height: 120)
+                    .overlay(
+                        Text(showPortfolio ? "Portfolio".uppercased() : "Live Prices".uppercased())
+                            .font(.headline)
+                            .fontWeight(.bold)
+                            .foregroundColor(Color.theme.accent)
+                            .animation(.none, value: 0)
+                            .frame(width: 100, alignment: .leading)
+                            .offset(x: 90)
+                    )
+            }
+                
             Spacer()
             
-            Text(showPortfolio ? "Portfolio" : "Live Prices")
-                .font(.headline)
-            
-            Spacer()
             CircleButtonView(iconName: "chevron.right")
                 .rotationEffect(Angle(degrees: showPortfolio ? 180 : 0))
                 .onTapGesture {
@@ -55,6 +60,6 @@ extension HomeView {
                     }
                 }
         }
-        .padding()
+        .padding(.trailing, 10)
     }
 }
