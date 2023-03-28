@@ -37,18 +37,33 @@ extension HomeView {
     var homeView: some View {
         HStack {
             HStack(spacing: 0) {
-                LottieView(lottieFile: "coin", loopMode: .loop)
-                    .frame(width: 120, height: 120)
-                    .overlay(
-                        Text(showPortfolio ? "Portfolio".uppercased() : "Live Prices".uppercased())
-                            .font(.headline)
-                            .fontWeight(.bold)
-                            .foregroundColor(Color.theme.accent)
-                            .animation(.none, value: 0)
-                            .frame(width: 100, alignment: .leading)
-                            .offset(x: 90)
-                    )
+                if showPortfolio {
+                    LottieView(lottieFile: "add", loopMode: .loop)
+                        .frame(width: 80, height: 80)
+                        .overlay(
+                            Text(showPortfolio ? "Portfolio".uppercased() : "Live Prices".uppercased())
+                                .font(.headline)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.theme.accent)
+                                .animation(.none, value: 0)
+                                .frame(width: 100, alignment: .leading)
+                                .offset(x: 90)
+                        )
+                } else {
+                    LottieView(lottieFile: "coin", loopMode: .loop)
+                        .frame(width: 120, height: 120)
+                        .overlay(
+                            Text(showPortfolio ? "Portfolio".uppercased() : "Live Prices".uppercased())
+                                .font(.headline)
+                                .fontWeight(.bold)
+                                .foregroundColor(Color.theme.accent)
+                                .animation(.none, value: 0)
+                                .frame(width: 100, alignment: .leading)
+                                .offset(x: 90)
+                        )
+                }
             }
+            .frame(width: 120, height: 120)
                 
             Spacer()
             

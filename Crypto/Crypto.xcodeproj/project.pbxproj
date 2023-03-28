@@ -21,6 +21,7 @@
 		DC98E17629D18D120050877C /* coin.json in Resources */ = {isa = PBXBuildFile; fileRef = DC98E17529D18D120050877C /* coin.json */; };
 		DC98E17929D18D620050877C /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = DC98E17829D18D620050877C /* Lottie */; };
 		DC98E17B29D18E260050877C /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E17A29D18E260050877C /* LottieView.swift */; };
+		DC98E17D29D2FA070050877C /* add.json in Resources */ = {isa = PBXBuildFile; fileRef = DC98E17C29D2FA070050877C /* add.json */; };
 		DCC311FE29C6079C00E23278 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC311FD29C6079C00E23278 /* CryptoApp.swift */; };
 		DCC3120029C6079C00E23278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC311FF29C6079C00E23278 /* ContentView.swift */; };
 		DCC3120229C6079F00E23278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3120129C6079F00E23278 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 		DC98E17229D187B80050877C /* CircleButtonAnimation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimation.swift; sourceTree = "<group>"; };
 		DC98E17529D18D120050877C /* coin.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = coin.json; sourceTree = "<group>"; };
 		DC98E17A29D18E260050877C /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		DC98E17C29D2FA070050877C /* add.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = add.json; sourceTree = "<group>"; };
 		DCC311FA29C6079C00E23278 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC311FD29C6079C00E23278 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
 		DCC311FF29C6079C00E23278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -141,6 +143,7 @@
 		DC98E17429D18CF70050877C /* Lotties */ = {
 			isa = PBXGroup;
 			children = (
+				DC98E17C29D2FA070050877C /* add.json */,
 				DC98E17529D18D120050877C /* coin.json */,
 				DC98E17A29D18E260050877C /* LottieView.swift */,
 			);
@@ -253,6 +256,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC98E17629D18D120050877C /* coin.json in Resources */,
+				DC98E17D29D2FA070050877C /* add.json in Resources */,
 				DCC3120529C6079F00E23278 /* Preview Assets.xcassets in Resources */,
 				DCC3120229C6079F00E23278 /* Assets.xcassets in Resources */,
 			);
