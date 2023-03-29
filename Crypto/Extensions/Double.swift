@@ -17,4 +17,17 @@ extension Double {
         formatter.maximumIntegerDigits = 6
         return formatter
     }
+    
+    private var asCurrencyWithDecimals: String {
+        let number = NSNumber(value: self)
+        return currencyFormatter6.string(from: number) ?? "$0.00"
+    }
+    
+    func asNumberString() -> String {
+        return String(format: "%.2f", self)
+    }
+    
+    func asPercentString() -> String {
+        return asNumberString() + "%"
+    }
 }
