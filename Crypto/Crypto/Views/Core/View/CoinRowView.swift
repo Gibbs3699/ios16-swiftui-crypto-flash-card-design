@@ -18,6 +18,14 @@ struct CoinRowView: View {
                 .font(.caption)
                 .foregroundColor(Color.theme.secondaryText)
                 .frame(minWidth: 30)
+            Text("\(coin.name)")
+                .font(.caption)
+                .foregroundColor(Color.theme.secondaryText)
+                .frame(minWidth: 30)
+            Text("\(coin.symbol)")
+                .font(.caption)
+                .foregroundColor(Color.theme.secondaryText)
+                .frame(minWidth: 30)
         }
     }
 }
