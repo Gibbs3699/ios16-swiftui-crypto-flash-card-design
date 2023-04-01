@@ -18,14 +18,22 @@ struct CoinRowView: View {
                 .font(.caption)
                 .foregroundColor(Color.theme.secondaryText)
                 .frame(minWidth: 30)
-            Text("\(coin.name)")
-                .font(.caption)
-                .foregroundColor(Color.theme.secondaryText)
-                .frame(minWidth: 30)
-            Text("\(coin.symbol)")
-                .font(.caption)
-                .foregroundColor(Color.theme.secondaryText)
-                .frame(minWidth: 30)
+            Circle()
+                .frame(width: 30, height: 30)
+            Text((coin.symbol.uppercased()))
+                .font(.headline)
+                .padding(.leading, 6)
+                .foregroundColor(Color.theme.accent)
+            
+            Spacer()
+            VStack(alignment: .trailing) {
+                Text(coin.currentPrice.asCurrencyWith6Decimals())
+                    .bold()
+                    .foregroundColor(Color.theme.accent)
+                Text(coin.priceChangePercentage24H?.asPercentString() ?? "0.00%")
+                    .bold()
+                    .foregroundColor(coin.priceChangePercentage24H ?? 0.00 >= 0 ? Color.theme.green : Color.theme.red)
+            }
         }
     }
 }
