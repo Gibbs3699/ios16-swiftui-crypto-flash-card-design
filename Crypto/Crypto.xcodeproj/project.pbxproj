@@ -25,7 +25,6 @@
 		DC98E17F29D42EB60050877C /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E17E29D42EB60050877C /* Double.swift */; };
 		DC98E18129D5ADAF0050877C /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC98E18029D5ADAF0050877C /* CoinRowView.swift */; };
 		DCC311FE29C6079C00E23278 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC311FD29C6079C00E23278 /* CryptoApp.swift */; };
-		DCC3120029C6079C00E23278 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC311FF29C6079C00E23278 /* ContentView.swift */; };
 		DCC3120229C6079F00E23278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3120129C6079F00E23278 /* Assets.xcassets */; };
 		DCC3120529C6079F00E23278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3120429C6079F00E23278 /* Preview Assets.xcassets */; };
 /* End PBXBuildFile section */
@@ -49,7 +48,6 @@
 		DC98E18029D5ADAF0050877C /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
 		DCC311FA29C6079C00E23278 /* Crypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Crypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCC311FD29C6079C00E23278 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
-		DCC311FF29C6079C00E23278 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		DCC3120129C6079F00E23278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC3120429C6079F00E23278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,6 +102,8 @@
 		DC98E13F29C83DF00050877C /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				DCC3120129C6079F00E23278 /* Assets.xcassets */,
+				DCC311FD29C6079C00E23278 /* CryptoApp.swift */,
 				DC98E14029C83F530050877C /* NetworkingManager.swift */,
 				DC98E16429CB54530050877C /* LocalFileManager.swift */,
 			);
@@ -159,11 +159,6 @@
 		DCC311F129C6079C00E23278 = {
 			isa = PBXGroup;
 			children = (
-				DC98E17429D18CF70050877C /* Lotties */,
-				DC98E13F29C83DF00050877C /* Utilities */,
-				DC98E13E29C83DC50050877C /* Services */,
-				DC98E13B29C7491C0050877C /* Extensions */,
-				DC98E13829C748530050877C /* Models */,
 				DCC311FC29C6079C00E23278 /* Crypto */,
 				DCC311FB29C6079C00E23278 /* Products */,
 			);
@@ -180,10 +175,12 @@
 		DCC311FC29C6079C00E23278 /* Crypto */ = {
 			isa = PBXGroup;
 			children = (
+				DC98E17429D18CF70050877C /* Lotties */,
+				DC98E13F29C83DF00050877C /* Utilities */,
+				DC98E13E29C83DC50050877C /* Services */,
+				DC98E13B29C7491C0050877C /* Extensions */,
+				DC98E13829C748530050877C /* Models */,
 				DC98E13529C7480D0050877C /* Views */,
-				DCC311FD29C6079C00E23278 /* CryptoApp.swift */,
-				DCC311FF29C6079C00E23278 /* ContentView.swift */,
-				DCC3120129C6079F00E23278 /* Assets.xcassets */,
 				DCC3120329C6079F00E23278 /* Preview Content */,
 			);
 			path = Crypto;
@@ -279,7 +276,6 @@
 				DC98E13A29C748830050877C /* CoinModel.swift in Sources */,
 				DC98E16329CB53FC0050877C /* CoinDataService.swift in Sources */,
 				DC98E16B29CF3A060050877C /* Color.swift in Sources */,
-				DCC3120029C6079C00E23278 /* ContentView.swift in Sources */,
 				DC98E16D29D0A50B0050877C /* HomeView.swift in Sources */,
 				DC98E17129D0AB030050877C /* CircleButtonView.swift in Sources */,
 				DC98E14129C83F530050877C /* NetworkingManager.swift in Sources */,
