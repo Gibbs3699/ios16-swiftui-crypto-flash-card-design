@@ -36,6 +36,8 @@ struct CoinRowView: View {
                 }
             }
             
+            Spacer()
+            
             VStack(alignment: .trailing) {
                 Text(coin.currentPrice.asCurrencyWith6Decimals())
                     .bold()
