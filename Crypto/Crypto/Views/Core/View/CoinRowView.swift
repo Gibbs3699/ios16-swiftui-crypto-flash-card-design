@@ -25,14 +25,8 @@ struct CoinRowView: View {
             
             Spacer()
             
-            VStack(alignment: .trailing) {
-                Text(coin.currentPrice.asCurrencyWith6Decimals())
-                    .bold()
-                    .foregroundColor(Color.theme.accent)
-                Text(coin.priceChangePercentage24H?.asPercentString() ?? "0.00%")
-                    .bold()
-                    .foregroundColor(coin.priceChangePercentage24H ?? 0.00 >= 0 ? Color.theme.green : Color.theme.red)
-            }
+            rightColumn
+            
         }
     }
 }
@@ -62,6 +56,18 @@ extension CoinRowView {
             Text((coin.currentHoldings ?? 0).asNumberString())
         }
         .foregroundColor(Color.theme.accent)
+    }
+    
+    private var rightColumn: some View {
+        VStack(alignment: .trailing) {
+            Text(coin.currentPrice.asCurrencyWith6Decimals())
+                .bold()
+            .foregroundColor(Color.theme.accent)
+            
+            Text(coin.priceChangePercentage24H?.asPercentString() ?? "0.00%")
+                .bold()
+                .foregroundColor(coin.priceChangePercentage24H ?? 0.00 >= 0 ? Color.theme.green : Color.theme.red)
+        }
     }
 }
 
