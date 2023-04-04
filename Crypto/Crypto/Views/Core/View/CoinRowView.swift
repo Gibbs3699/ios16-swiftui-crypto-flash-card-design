@@ -15,16 +15,7 @@ struct CoinRowView: View {
     
     var body: some View {
         HStack(spacing: 0) {
-            Text("\(coin.rank)")
-                .font(.caption)
-                .foregroundColor(Color.theme.secondaryText)
-                .frame(minWidth: 30)
-            Circle()
-                .frame(width: 30, height: 30)
-            Text((coin.symbol.uppercased()))
-                .font(.headline)
-                .padding(.leading, 6)
-                .foregroundColor(Color.theme.accent)
+            leftColumn
             
             Spacer()
             
@@ -46,6 +37,25 @@ struct CoinRowView: View {
                     .bold()
                     .foregroundColor(coin.priceChangePercentage24H ?? 0.00 >= 0 ? Color.theme.green : Color.theme.red)
             }
+        }
+    }
+}
+
+extension CoinRowView {
+    
+    private var leftColumn: some View {
+        HStack(spacing: 0) {
+            Text("\(coin.rank)")
+                .font(.caption)
+                .foregroundColor(Color.theme.secondaryText)
+            .frame(minWidth: 30)
+            
+            Circle()
+                .frame(width: 30, height: 30)
+            Text((coin.symbol.uppercased()))
+                .font(.headline)
+                .padding(.leading, 6)
+                .foregroundColor(Color.theme.accent)
         }
     }
 }
