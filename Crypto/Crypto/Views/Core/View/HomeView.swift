@@ -19,6 +19,11 @@ struct HomeView: View {
             VStack {
                 homeView
                 
+                List {
+                    CoinRowView(showCurrentHolding: false, coin: DeveloperPreview.instance.coin)
+                }
+                .listStyle(PlainListStyle())
+                
                 Spacer(minLength: 0)
             }
         }
@@ -27,9 +32,13 @@ struct HomeView: View {
 
 struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        HomeView()
-            .navigationBarHidden(true)
+        NavigationView {
+            HomeView()
+                .navigationBarHidden(true)
+        }
+        .environmentObject(dev.homeVM)
     }
+    
 }
 
 extension HomeView {
