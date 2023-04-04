@@ -18,13 +18,9 @@ struct CoinRowView: View {
             leftColumn
             
             Spacer()
-            
+
             if showCurrentHolding {
-                VStack(alignment: .trailing) {
-                    Text(coin.currentHoldingValue.asCurrencyWith6Decimals())
-                        .bold()
-                    Text((coin.currentHoldings ?? 0).asNumberString())
-                }
+                centerColumn
             }
             
             Spacer()
@@ -57,6 +53,15 @@ extension CoinRowView {
                 .padding(.leading, 6)
                 .foregroundColor(Color.theme.accent)
         }
+    }
+    
+    private var centerColumn: some View {
+        VStack(alignment: .trailing) {
+            Text(coin.currentHoldingValue.asCurrencyWith6Decimals())
+                .bold()
+            Text((coin.currentHoldings ?? 0).asNumberString())
+        }
+        .foregroundColor(Color.theme.accent)
     }
 }
 
