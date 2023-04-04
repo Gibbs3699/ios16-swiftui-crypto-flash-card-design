@@ -27,6 +27,7 @@
 		DCC311FE29C6079C00E23278 /* CryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC311FD29C6079C00E23278 /* CryptoApp.swift */; };
 		DCC3120229C6079F00E23278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3120129C6079F00E23278 /* Assets.xcassets */; };
 		DCC3120529C6079F00E23278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3120429C6079F00E23278 /* Preview Assets.xcassets */; };
+		DCE8337B29DC855F00E7FB28 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337A29DC855F00E7FB28 /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -50,6 +51,7 @@
 		DCC311FD29C6079C00E23278 /* CryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CryptoApp.swift; sourceTree = "<group>"; };
 		DCC3120129C6079F00E23278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC3120429C6079F00E23278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DCE8337A29DC855F00E7FB28 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				DC98E16829CC543B0050877C /* CardViewModel.swift */,
+				DCE8337A29DC855F00E7FB28 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				DC98E13D29C7492E0050877C /* DeveloperPreview.swift in Sources */,
 				DC98E13A29C748830050877C /* CoinModel.swift in Sources */,
 				DC98E16329CB53FC0050877C /* CoinDataService.swift in Sources */,
+				DCE8337B29DC855F00E7FB28 /* HomeViewModel.swift in Sources */,
 				DC98E16B29CF3A060050877C /* Color.swift in Sources */,
 				DC98E16D29D0A50B0050877C /* HomeView.swift in Sources */,
 				DC98E17129D0AB030050877C /* CircleButtonView.swift in Sources */,
