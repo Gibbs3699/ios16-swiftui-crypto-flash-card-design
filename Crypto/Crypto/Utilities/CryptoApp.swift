@@ -9,7 +9,7 @@ import SwiftUI
 
 @main
 struct CryptoApp: App {
-    @StateObject private var vm = CardViewModel()
+    @StateObject private var vm = HomeViewModel()
     
     var body: some Scene {
         WindowGroup {
