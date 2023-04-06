@@ -20,6 +20,8 @@ struct HomeView: View {
             VStack {
                 homeView
                 
+                columnTitles
+                
                 if !showPortfolio {
                     allCoinsList
                         .transition(.move(edge: .leading))
@@ -109,5 +111,17 @@ extension HomeView {
             }
         }
         .listStyle(PlainListStyle())
+    }
+    
+    private var columnTitles: some View {
+        HStack {
+            Text("Coin")
+            
+            Spacer()
+            
+            Text("Holdings")
+            
+            Text("Price")
+        }
     }
 }
