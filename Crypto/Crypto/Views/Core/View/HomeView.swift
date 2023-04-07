@@ -115,13 +115,21 @@ extension HomeView {
     
     private var columnTitles: some View {
         HStack {
-            Text("Coin")
-            
-            Spacer()
-            
-            Text("Holdings")
-            
-            Text("Price")
+            HStack(spacing: 4) {
+                Text("Coin")
+                
+                Spacer()
+                
+                if showPortfolio {
+                    Text("Holdings")
+                }
+                
+                Text("Price")
+                    .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
+            }
         }
+        .font(.caption)
+        .foregroundColor(Color.theme.secondaryText)
+        .padding(.horizontal)
     }
 }
