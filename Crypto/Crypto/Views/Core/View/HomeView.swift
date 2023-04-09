@@ -124,7 +124,7 @@ extension HomeView {
             }
             
             Text("Price")
-                .frame(width: UIScreen.main.bounds.width / 3.5, alignment: .trailing)
+                .frame(width: UIScreen.main.bounds.width / 2.5, alignment: .trailing)
         }
         .font(.caption)
         .foregroundColor(Color.theme.secondaryText)
