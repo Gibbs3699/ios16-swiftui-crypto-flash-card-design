@@ -28,6 +28,7 @@
 		DCC3120229C6079F00E23278 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3120129C6079F00E23278 /* Assets.xcassets */; };
 		DCC3120529C6079F00E23278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3120429C6079F00E23278 /* Preview Assets.xcassets */; };
 		DCE8337B29DC855F00E7FB28 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337A29DC855F00E7FB28 /* HomeViewModel.swift */; };
+		DCE8337D29E4653700E7FB28 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337C29E4653700E7FB28 /* CoinImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -52,6 +53,7 @@
 		DCC3120129C6079F00E23278 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DCC3120429C6079F00E23278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCE8337A29DC855F00E7FB28 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		DCE8337C29E4653700E7FB28 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 			children = (
 				DC98E17029D0AB030050877C /* CircleButtonView.swift */,
 				DC98E17229D187B80050877C /* CircleButtonAnimation.swift */,
+				DCE8337C29E4653700E7FB28 /* CoinImageView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -287,6 +290,7 @@
 				DC98E13729C7482F0050877C /* CardView.swift in Sources */,
 				DC98E17329D187B80050877C /* CircleButtonAnimation.swift in Sources */,
 				DCC311FE29C6079C00E23278 /* CryptoApp.swift in Sources */,
+				DCE8337D29E4653700E7FB28 /* CoinImageView.swift in Sources */,
 				DC98E17B29D18E260050877C /* LottieView.swift in Sources */,
 				DC98E16529CB54530050877C /* LocalFileManager.swift in Sources */,
 				DC98E17F29D42EB60050877C /* Double.swift in Sources */,
