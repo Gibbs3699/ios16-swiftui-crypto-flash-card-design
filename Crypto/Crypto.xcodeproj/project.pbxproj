@@ -29,6 +29,7 @@
 		DCC3120529C6079F00E23278 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCC3120429C6079F00E23278 /* Preview Assets.xcassets */; };
 		DCE8337B29DC855F00E7FB28 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337A29DC855F00E7FB28 /* HomeViewModel.swift */; };
 		DCE8337D29E4653700E7FB28 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337C29E4653700E7FB28 /* CoinImageView.swift */; };
+		DCE8337F29E4745B00E7FB28 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337E29E4745B00E7FB28 /* CoinImageService.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -54,6 +55,7 @@
 		DCC3120429C6079F00E23278 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		DCE8337A29DC855F00E7FB28 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		DCE8337C29E4653700E7FB28 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
+		DCE8337E29E4745B00E7FB28 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +101,7 @@
 			isa = PBXGroup;
 			children = (
 				DC98E16229CB53FC0050877C /* CoinDataService.swift */,
+				DCE8337E29E4745B00E7FB28 /* CoinImageService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -294,6 +297,7 @@
 				DC98E17B29D18E260050877C /* LottieView.swift in Sources */,
 				DC98E16529CB54530050877C /* LocalFileManager.swift in Sources */,
 				DC98E17F29D42EB60050877C /* Double.swift in Sources */,
+				DCE8337F29E4745B00E7FB28 /* CoinImageService.swift in Sources */,
 				DC98E16929CC543B0050877C /* CardViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
