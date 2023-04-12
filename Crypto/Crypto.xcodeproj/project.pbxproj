@@ -30,6 +30,7 @@
 		DCE8337B29DC855F00E7FB28 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337A29DC855F00E7FB28 /* HomeViewModel.swift */; };
 		DCE8337D29E4653700E7FB28 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337C29E4653700E7FB28 /* CoinImageView.swift */; };
 		DCE8337F29E4745B00E7FB28 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337E29E4745B00E7FB28 /* CoinImageService.swift */; };
+		DCE8338129E676F700E7FB28 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8338029E676F700E7FB28 /* CoinImageViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -56,6 +57,7 @@
 		DCE8337A29DC855F00E7FB28 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		DCE8337C29E4653700E7FB28 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		DCE8337E29E4745B00E7FB28 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
+		DCE8338029E676F700E7FB28 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -151,6 +153,7 @@
 				DC98E17029D0AB030050877C /* CircleButtonView.swift */,
 				DC98E17229D187B80050877C /* CircleButtonAnimation.swift */,
 				DCE8337C29E4653700E7FB28 /* CoinImageView.swift */,
+				DCE8338029E676F700E7FB28 /* CoinImageViewModel.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -297,6 +300,7 @@
 				DC98E17B29D18E260050877C /* LottieView.swift in Sources */,
 				DC98E16529CB54530050877C /* LocalFileManager.swift in Sources */,
 				DC98E17F29D42EB60050877C /* Double.swift in Sources */,
+				DCE8338129E676F700E7FB28 /* CoinImageViewModel.swift in Sources */,
 				DCE8337F29E4745B00E7FB28 /* CoinImageService.swift in Sources */,
 				DC98E16929CC543B0050877C /* CardViewModel.swift in Sources */,
 			);

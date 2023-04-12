@@ -7,23 +7,13 @@
 
 import SwiftUI
 
-class CoinViewModel: ObservableObject {
-    
-    @Published var image: UIImage? = nil
-    @Published var isLoading: Bool = false
-    
-    init() {
-        getImage()
-    }
-    
-    private func getImage() {
-        
-    }
-}
-
 struct CoinImageView: View {
     
-    @StateObject var vm: CoinViewModel = CoinViewModel()
+    @StateObject var vm: CoinImageViewModel
+    
+    init(coin: CoinModel) {
+        _vm = StateObject(wrappedValue: CoinImageViewModel(coin: coin))
+    }
     
     var body: some View {
         if let image = vm.image {
@@ -36,5 +26,13 @@ struct CoinImageView: View {
             Image(systemName: "questionmark")
                 .foregroundColor(Color.theme.secondaryText)
         }
+    }
+}
+
+struct CoinImageView_Previews: PreviewProvider {
+    static var previews: some View {
+        CoinImageView(coin: dev.coin)
+            .previewLayout(.sizeThatFits)
+            .preferredColorScheme(.dark)
     }
 }
