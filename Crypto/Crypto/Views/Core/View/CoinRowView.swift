@@ -23,10 +23,7 @@ struct CoinRowView: View {
                 centerColumn
             }
             
-            Spacer()
-            
             rightColumn
-            
         }
     }
 }
@@ -69,7 +66,7 @@ extension CoinRowView {
                 .bold()
                 .foregroundColor(coin.priceChangePercentage24H ?? 0.00 >= 0 ? Color.theme.green : Color.theme.red)
         }
-        .frame(width: UIScreen.main.bounds.width / 3.2, alignment: .trailing)
+        .frame(width: UIScreen.main.bounds.width / 2.5, alignment: .trailing)
     }
 }
 
