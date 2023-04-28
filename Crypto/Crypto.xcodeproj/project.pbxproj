@@ -32,6 +32,7 @@
 		DCE8337F29E4745B00E7FB28 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337E29E4745B00E7FB28 /* CoinImageService.swift */; };
 		DCE8338129E676F700E7FB28 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8338029E676F700E7FB28 /* CoinImageViewModel.swift */; };
 		DCE8338329FBA57A00E7FB28 /* dancing-burger.json in Resources */ = {isa = PBXBuildFile; fileRef = DCE8338229FBA57A00E7FB28 /* dancing-burger.json */; };
+		DCE8338529FBB97C00E7FB28 /* WalletCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8338429FBB97C00E7FB28 /* WalletCardView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -60,6 +61,7 @@
 		DCE8337E29E4745B00E7FB28 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		DCE8338029E676F700E7FB28 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
 		DCE8338229FBA57A00E7FB28 /* dancing-burger.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dancing-burger.json"; sourceTree = "<group>"; };
+		DCE8338429FBB97C00E7FB28 /* WalletCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,6 +129,7 @@
 				DC98E13629C7482F0050877C /* CardView.swift */,
 				DC98E16C29D0A50B0050877C /* HomeView.swift */,
 				DC98E18029D5ADAF0050877C /* CoinRowView.swift */,
+				DCE8338429FBB97C00E7FB28 /* WalletCardView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -305,6 +308,7 @@
 				DC98E16529CB54530050877C /* LocalFileManager.swift in Sources */,
 				DC98E17F29D42EB60050877C /* Double.swift in Sources */,
 				DCE8338129E676F700E7FB28 /* CoinImageViewModel.swift in Sources */,
+				DCE8338529FBB97C00E7FB28 /* WalletCardView.swift in Sources */,
 				DCE8337F29E4745B00E7FB28 /* CoinImageService.swift in Sources */,
 				DC98E16929CC543B0050877C /* CardViewModel.swift in Sources */,
 			);
