@@ -84,7 +84,7 @@ extension HomeView {
                 
             Spacer()
             
-            HStack {
+            HStack(spacing: 0) {
                 LottieView(lottieFile: "dancing-burger", loopMode: .loop)
                     .frame(width: 100, height: 100)
                 CircleButtonView(iconName: "chevron.right")
