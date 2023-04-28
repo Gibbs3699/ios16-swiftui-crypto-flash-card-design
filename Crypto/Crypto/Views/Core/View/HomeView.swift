@@ -84,13 +84,17 @@ extension HomeView {
                 
             Spacer()
             
-            CircleButtonView(iconName: "chevron.right")
-                .rotationEffect(Angle(degrees: showPortfolio ? 180 : 0))
-                .onTapGesture {
-                    withAnimation(.spring()) {
-                        showPortfolio.toggle()
-                    }
+            HStack {
+                LottieView(lottieFile: "dancing-burger", loopMode: .loop)
+                    .frame(width: 100, height: 100)
+                CircleButtonView(iconName: "chevron.right")
+                    .rotationEffect(Angle(degrees: showPortfolio ? 180 : 0))
+                    .onTapGesture {
+                        withAnimation(.spring()) {
+                            showPortfolio.toggle()
+                        }
                 }
+            }
         }
         .padding(.trailing, 10)
     }

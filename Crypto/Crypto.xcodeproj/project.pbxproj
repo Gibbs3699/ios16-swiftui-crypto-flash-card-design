@@ -31,6 +31,7 @@
 		DCE8337D29E4653700E7FB28 /* CoinImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337C29E4653700E7FB28 /* CoinImageView.swift */; };
 		DCE8337F29E4745B00E7FB28 /* CoinImageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8337E29E4745B00E7FB28 /* CoinImageService.swift */; };
 		DCE8338129E676F700E7FB28 /* CoinImageViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8338029E676F700E7FB28 /* CoinImageViewModel.swift */; };
+		DCE8338329FBA57A00E7FB28 /* dancing-burger.json in Resources */ = {isa = PBXBuildFile; fileRef = DCE8338229FBA57A00E7FB28 /* dancing-burger.json */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -58,6 +59,7 @@
 		DCE8337C29E4653700E7FB28 /* CoinImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageView.swift; sourceTree = "<group>"; };
 		DCE8337E29E4745B00E7FB28 /* CoinImageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageService.swift; sourceTree = "<group>"; };
 		DCE8338029E676F700E7FB28 /* CoinImageViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinImageViewModel.swift; sourceTree = "<group>"; };
+		DCE8338229FBA57A00E7FB28 /* dancing-burger.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dancing-burger.json"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,6 +163,7 @@
 		DC98E17429D18CF70050877C /* Lotties */ = {
 			isa = PBXGroup;
 			children = (
+				DCE8338229FBA57A00E7FB28 /* dancing-burger.json */,
 				DC98E17C29D2FA070050877C /* add.json */,
 				DC98E17529D18D120050877C /* coin.json */,
 				DC98E17A29D18E260050877C /* LottieView.swift */,
@@ -274,6 +277,7 @@
 				DC98E17D29D2FA070050877C /* add.json in Resources */,
 				DCC3120529C6079F00E23278 /* Preview Assets.xcassets in Resources */,
 				DCC3120229C6079F00E23278 /* Assets.xcassets in Resources */,
+				DCE8338329FBA57A00E7FB28 /* dancing-burger.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
