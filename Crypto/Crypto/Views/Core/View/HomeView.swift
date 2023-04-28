@@ -20,6 +20,16 @@ struct HomeView: View {
             VStack {
                 homeView
                 
+                Spacer(minLength: 0)
+                
+                WalletCardView()
+                    .onTapGesture {
+                        withAnimation(.spring()) {
+                            showPortfolio.toggle()
+                        }
+                    }
+                
+                
                 columnTitles
                 
                 if !showPortfolio {
