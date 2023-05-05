@@ -18,7 +18,7 @@ struct CardView: View, Identifiable {
         ForEach(vm.allCoins) { coin in
             Image(coin.image)
                 .resizable()
-                .cornerRadius(24)
+                .cornerRadius(30)
                 .scaledToFit()
                 .frame(minWidth: 0, maxWidth: .infinity)
                 .overlay(
