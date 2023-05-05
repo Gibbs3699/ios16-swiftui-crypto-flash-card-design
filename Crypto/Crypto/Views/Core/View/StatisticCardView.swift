@@ -1,5 +1,5 @@
 //
-//  WalletCardView.swift
+//  StatisticCardView.swift
 //  Crypto
 //
 //  Created by TheGIZzz on 28/4/2566 BE.
@@ -7,7 +7,11 @@
 
 import SwiftUI
 
-struct WalletCardView: View {
+struct StatisticCardView: View {
+    
+    @EnvironmentObject private var vm: HomeViewModel
+    @Binding var showPortfolio: Bool
+    
     @State var translation: CGSize = .zero
     @State var isDragging = false
     
@@ -124,10 +128,11 @@ struct WalletCardView: View {
                 .offset(x: translation.width/15, y: translation.height/30)
         }
     }
+    
 }
 
-struct WalletCardView_Previews: PreviewProvider {
+struct StatisticCardView_Previews: PreviewProvider {
     static var previews: some View {
-        WalletCardView()
+        StatisticCardView(showPortfolio: .constant(true))
     }
 }

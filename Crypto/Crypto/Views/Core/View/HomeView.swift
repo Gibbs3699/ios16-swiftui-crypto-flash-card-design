@@ -22,7 +22,7 @@ struct HomeView: View {
                 
                 Spacer(minLength: 0)
                 
-                WalletCardView()
+                StatisticCardView(showPortfolio: $showPortfolio)
                     .onTapGesture {
                         withAnimation(.spring()) {
                             showPortfolio.toggle()
