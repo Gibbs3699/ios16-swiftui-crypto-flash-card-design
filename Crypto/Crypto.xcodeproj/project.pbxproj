@@ -34,6 +34,8 @@
 		DCE8338329FBA57A00E7FB28 /* dancing-burger.json in Resources */ = {isa = PBXBuildFile; fileRef = DCE8338229FBA57A00E7FB28 /* dancing-burger.json */; };
 		DCE8338529FBB97C00E7FB28 /* StatisticCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8338429FBB97C00E7FB28 /* StatisticCardView.swift */; };
 		DCE833872A04E94F00E7FB28 /* WalletCardViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE833862A04E94F00E7FB28 /* WalletCardViewModel.swift */; };
+		DCE833892A069E9800E7FB28 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE833882A069E9800E7FB28 /* StatisticView.swift */; };
+		DCE8338B2A069EE400E7FB28 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8338A2A069EE400E7FB28 /* StatisticModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -64,6 +66,8 @@
 		DCE8338229FBA57A00E7FB28 /* dancing-burger.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "dancing-burger.json"; sourceTree = "<group>"; };
 		DCE8338429FBB97C00E7FB28 /* StatisticCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticCardView.swift; sourceTree = "<group>"; };
 		DCE833862A04E94F00E7FB28 /* WalletCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardViewModel.swift; sourceTree = "<group>"; };
+		DCE833882A069E9800E7FB28 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
+		DCE8338A2A069EE400E7FB28 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +95,7 @@
 			isa = PBXGroup;
 			children = (
 				DC98E13929C748830050877C /* CoinModel.swift */,
+				DCE8338A2A069EE400E7FB28 /* StatisticModel.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -132,6 +137,7 @@
 				DC98E16C29D0A50B0050877C /* HomeView.swift */,
 				DC98E18029D5ADAF0050877C /* CoinRowView.swift */,
 				DCE8338429FBB97C00E7FB28 /* StatisticCardView.swift */,
+				DCE833882A069E9800E7FB28 /* StatisticView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -303,8 +309,10 @@
 				DC98E17129D0AB030050877C /* CircleButtonView.swift in Sources */,
 				DC98E14129C83F530050877C /* NetworkingManager.swift in Sources */,
 				DC98E18129D5ADAF0050877C /* CoinRowView.swift in Sources */,
+				DCE833892A069E9800E7FB28 /* StatisticView.swift in Sources */,
 				DC98E13729C7482F0050877C /* CardView.swift in Sources */,
 				DC98E17329D187B80050877C /* CircleButtonAnimation.swift in Sources */,
+				DCE8338B2A069EE400E7FB28 /* StatisticModel.swift in Sources */,
 				DCC311FE29C6079C00E23278 /* CryptoApp.swift in Sources */,
 				DCE8337D29E4653700E7FB28 /* CoinImageView.swift in Sources */,
 				DC98E17B29D18E260050877C /* LottieView.swift in Sources */,
