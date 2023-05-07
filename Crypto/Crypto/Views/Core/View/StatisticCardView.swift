@@ -127,6 +127,17 @@ struct StatisticCardView: View {
                 .blendMode(.overlay)
                 .offset(x: translation.width/15, y: translation.height/30)
         }
+        .overlay(statsDetails)
+    }
+    
+    var statsDetails: some View {
+        HStack(alignment: .center) {
+            ForEach(vm.statistics) { stat in
+                StatisticView(stat: stat)
+                    .frame(width: UIScreen.main.bounds.width / 3)
+            }
+        }
+        .frame(width: UIScreen.main.bounds.width, alignment: showPortfolio ? .trailing : .leading)
     }
     
 }
@@ -134,5 +145,6 @@ struct StatisticCardView: View {
 struct StatisticCardView_Previews: PreviewProvider {
     static var previews: some View {
         StatisticCardView(showPortfolio: .constant(true))
+            .environmentObject(dev.homeVM)
     }
 }

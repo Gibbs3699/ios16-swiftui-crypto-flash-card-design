@@ -11,11 +11,9 @@ import Combine
 class HomeViewModel: ObservableObject {
     
     @Published var allCoins: [CoinModel] = []
-    
-    private var coinDataService = CoinDataService()
-    
+    @Published var statistics: [StatisticModel] = []
     @Published var portfolioCoins: [CoinModel] = []
-    
+    private var coinDataService = CoinDataService()
     private var cancellable = Set<AnyCancellable>()
     
     init() {
