@@ -37,8 +37,7 @@
 		DCE833892A069E9800E7FB28 /* StatisticView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE833882A069E9800E7FB28 /* StatisticView.swift */; };
 		DCE8338B2A069EE400E7FB28 /* StatisticModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCE8338A2A069EE400E7FB28 /* StatisticModel.swift */; };
 		DCFD15082A1780C40004661C /* RiveRuntime in Frameworks */ = {isa = PBXBuildFile; productRef = DCFD15072A1780C40004661C /* RiveRuntime */; };
-		DCFD150C2A1780FC0004661C /* slide-right.riv in Resources */ = {isa = PBXBuildFile; fileRef = DCFD150A2A1780FC0004661C /* slide-right.riv */; };
-		DCFD150D2A1780FC0004661C /* slide-left.riv in Resources */ = {isa = PBXBuildFile; fileRef = DCFD150B2A1780FC0004661C /* slide-left.riv */; };
+		DCFD15132A192C780004661C /* card-slide.riv in Resources */ = {isa = PBXBuildFile; fileRef = DCFD15122A192C780004661C /* card-slide.riv */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -71,8 +70,7 @@
 		DCE833862A04E94F00E7FB28 /* WalletCardViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WalletCardViewModel.swift; sourceTree = "<group>"; };
 		DCE833882A069E9800E7FB28 /* StatisticView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticView.swift; sourceTree = "<group>"; };
 		DCE8338A2A069EE400E7FB28 /* StatisticModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatisticModel.swift; sourceTree = "<group>"; };
-		DCFD150A2A1780FC0004661C /* slide-right.riv */ = {isa = PBXFileReference; lastKnownFileType = file; name = "slide-right.riv"; path = "../../../Asset/slide-right.riv"; sourceTree = "<group>"; };
-		DCFD150B2A1780FC0004661C /* slide-left.riv */ = {isa = PBXFileReference; lastKnownFileType = file; name = "slide-left.riv"; path = "../../../Asset/slide-left.riv"; sourceTree = "<group>"; };
+		DCFD15122A192C780004661C /* card-slide.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "card-slide.riv"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,8 +229,7 @@
 		DCFD15092A1780E50004661C /* Rive */ = {
 			isa = PBXGroup;
 			children = (
-				DCFD150B2A1780FC0004661C /* slide-left.riv */,
-				DCFD150A2A1780FC0004661C /* slide-right.riv */,
+				DCFD15122A192C780004661C /* card-slide.riv */,
 			);
 			path = Rive;
 			sourceTree = "<group>";
@@ -305,10 +302,9 @@
 			files = (
 				DC98E17629D18D120050877C /* coin.json in Resources */,
 				DC98E17D29D2FA070050877C /* add.json in Resources */,
-				DCFD150C2A1780FC0004661C /* slide-right.riv in Resources */,
 				DCC3120529C6079F00E23278 /* Preview Assets.xcassets in Resources */,
-				DCFD150D2A1780FC0004661C /* slide-left.riv in Resources */,
 				DCC3120229C6079F00E23278 /* Assets.xcassets in Resources */,
+				DCFD15132A192C780004661C /* card-slide.riv in Resources */,
 				DCE8338329FBA57A00E7FB28 /* dancing-burger.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
