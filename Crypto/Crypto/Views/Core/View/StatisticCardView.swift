@@ -13,11 +13,10 @@ struct StatisticCardView: View {
     @Binding var showPortfolio: Bool
     
     var body: some View {
-        HStack(spacing: -10) {
+        HStack(spacing: 0) {
             ForEach(vm.statistics) { stat in
                 StatisticView(stat: stat)
-                    .padding(.leading, 20)
-                    .frame(width: UIScreen.main.bounds.width / 3)
+                    .frame(width: (UIScreen.main.bounds.width - 10) / 3)
                     
             }
         }

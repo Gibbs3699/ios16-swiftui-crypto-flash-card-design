@@ -10,7 +10,7 @@ import RiveRuntime
 
 struct HomeView: View {
     
-    let card = RiveViewModel(fileName: "card", autoPlay: false)
+    let card = RiveViewModel(fileName: "card-active", autoPlay: false)
     
     @EnvironmentObject private var vm: HomeViewModel
     @State private var showPortfolio: Bool = false
@@ -59,7 +59,7 @@ struct HomeView: View {
     var cardSlide: some View {
         ZStack {
             card.view()
-                .frame(width: UIScreen.main.bounds.width-30, height: 130, alignment: .center)
+                .frame(width: UIScreen.main.bounds.width, height: 140, alignment: .center)
                 .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)
         }
     }
