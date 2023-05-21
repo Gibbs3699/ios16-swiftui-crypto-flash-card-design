@@ -31,13 +31,13 @@ struct HomeView: View {
                     )
                     .onTapGesture {
                         card.play(animationName: "active")
-                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                        DispatchQueue.main.asyncAfter(deadline: .now()) {
                             withAnimation(.spring()) {
                                 showPortfolio.toggle()
                             }
                         }
                     }
-                    .padding(.top, 0)
+                    .padding(.top, -20)
                 
                 columnTitles
                 
@@ -59,7 +59,7 @@ struct HomeView: View {
     var cardSlide: some View {
         ZStack {
             card.view()
-                .frame(width: UIScreen.main.bounds.width-20, height: 150, alignment: .center)
+                .frame(width: UIScreen.main.bounds.width-30, height: 130, alignment: .center)
                 .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)
         }
     }
