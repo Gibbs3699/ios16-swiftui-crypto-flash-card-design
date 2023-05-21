@@ -6,8 +6,11 @@
 //
 
 import SwiftUI
+import RiveRuntime
 
 struct HomeView: View {
+    
+    let card = RiveViewModel(fileName: "card", autoPlay: false)
     
     @EnvironmentObject private var vm: HomeViewModel
     @State private var showPortfolio: Bool = false
@@ -22,13 +25,19 @@ struct HomeView: View {
                 
                 Spacer(minLength: 0)
                 
-                StatisticCardView(showPortfolio: $showPortfolio)
+                cardSlide
+                    .overlay(
+                        StatisticCardView(showPortfolio: $showPortfolio)
+                    )
                     .onTapGesture {
-                        withAnimation(.spring()) {
-                            showPortfolio.toggle()
+                        card.play(animationName: "active")
+                        DispatchQueue.main.asyncAfter(deadline: .now() + 0.8) {
+                            withAnimation(.spring()) {
+                                showPortfolio.toggle()
+                            }
                         }
                     }
-                
+                    .padding(.top, 0)
                 
                 columnTitles
                 
@@ -44,6 +53,14 @@ struct HomeView: View {
                 
                 Spacer(minLength: 0)
             }
+        }
+    }
+    
+    var cardSlide: some View {
+        ZStack {
+            card.view()
+                .frame(width: UIScreen.main.bounds.width-20, height: 150, alignment: .center)
+                .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)
         }
     }
 }
