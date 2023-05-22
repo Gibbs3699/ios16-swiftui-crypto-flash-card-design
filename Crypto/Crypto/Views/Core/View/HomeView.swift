@@ -10,7 +10,7 @@ import RiveRuntime
 
 struct HomeView: View {
     
-    let card = RiveViewModel(fileName: "card-active", autoPlay: false)
+    let card = RiveViewModel(fileName: "card-slider", autoPlay: false)
     
     @EnvironmentObject private var vm: HomeViewModel
     @State private var showPortfolio: Bool = false
@@ -30,10 +30,19 @@ struct HomeView: View {
                         StatisticCardView(showPortfolio: $showPortfolio)
                     )
                     .onTapGesture {
-                        card.play(animationName: "active")
-                        DispatchQueue.main.asyncAfter(deadline: .now()) {
-                            withAnimation(.spring()) {
-                                showPortfolio.toggle()
+                        if showPortfolio {
+                            card.play(animationName: "right")
+                            DispatchQueue.main.asyncAfter(deadline: .now()) {
+                                withAnimation(.spring()) {
+                                    showPortfolio.toggle()
+                                }
+                            }
+                        } else {
+                            card.play(animationName: "left")
+                            DispatchQueue.main.asyncAfter(deadline: .now()) {
+                                withAnimation(.spring()) {
+                                    showPortfolio.toggle()
+                                }
                             }
                         }
                     }
@@ -117,8 +126,20 @@ extension HomeView {
                 CircleButtonView(iconName: "chevron.right")
                     .rotationEffect(Angle(degrees: showPortfolio ? 180 : 0))
                     .onTapGesture {
-                        withAnimation(.spring()) {
-                            showPortfolio.toggle()
+                        if showPortfolio {
+                            card.play(animationName: "right")
+                            DispatchQueue.main.asyncAfter(deadline: .now()) {
+                                withAnimation(.spring()) {
+                                    showPortfolio.toggle()
+                                }
+                            }
+                        } else {
+                            card.play(animationName: "left")
+                            DispatchQueue.main.asyncAfter(deadline: .now()) {
+                                withAnimation(.spring()) {
+                                    showPortfolio.toggle()
+                                }
+                            }
                         }
                 }
             }
