@@ -68,7 +68,7 @@ struct HomeView: View {
     var cardSlide: some View {
         ZStack {
             card.view()
-                .frame(width: UIScreen.main.bounds.width, height: 140, alignment: .center)
+                .frame(width: UIScreen.main.bounds.width, height: 150, alignment: .center)
                 .shadow(color: .black.opacity(0.2), radius: 10, x: 0, y: 5)
         }
     }
