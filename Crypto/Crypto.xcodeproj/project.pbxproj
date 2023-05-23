@@ -40,6 +40,7 @@
 		DCFD152D2A1B68AF0004661C /* card-slider.riv in Resources */ = {isa = PBXBuildFile; fileRef = DCFD152C2A1B68AF0004661C /* card-slider.riv */; };
 		DCFD152F2A1B6AB50004661C /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD152E2A1B6AB50004661C /* MarketDataService.swift */; };
 		DCFD15312A1B6B720004661C /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD15302A1B6B720004661C /* MarketDataModel.swift */; };
+		DCFD15332A1CAC830004661C /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD15322A1CAC830004661C /* SearchBarView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -75,6 +76,7 @@
 		DCFD152C2A1B68AF0004661C /* card-slider.riv */ = {isa = PBXFileReference; lastKnownFileType = file; path = "card-slider.riv"; sourceTree = "<group>"; };
 		DCFD152E2A1B6AB50004661C /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		DCFD15302A1B6B720004661C /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
+		DCFD15322A1CAC830004661C /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -178,6 +180,7 @@
 				DC98E17229D187B80050877C /* CircleButtonAnimation.swift */,
 				DCE8337C29E4653700E7FB28 /* CoinImageView.swift */,
 				DCE8338029E676F700E7FB28 /* CoinImageViewModel.swift */,
+				DCFD15322A1CAC830004661C /* SearchBarView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -344,6 +347,7 @@
 				DCE8338129E676F700E7FB28 /* CoinImageViewModel.swift in Sources */,
 				DCE8338529FBB97C00E7FB28 /* StatisticCardView.swift in Sources */,
 				DCE8337F29E4745B00E7FB28 /* CoinImageService.swift in Sources */,
+				DCFD15332A1CAC830004661C /* SearchBarView.swift in Sources */,
 				DC98E16929CC543B0050877C /* CardViewModel.swift in Sources */,
 				DCFD15312A1B6B720004661C /* MarketDataModel.swift in Sources */,
 				DCE833872A04E94F00E7FB28 /* WalletCardViewModel.swift in Sources */,

@@ -48,6 +48,9 @@ struct HomeView: View {
                     }
                     .padding(.top, -20)
                 
+                SearchBarView(searchText: $vm.searchText)
+                    .padding(.top, -20)
+                
                 columnTitles
                 
                 if !showPortfolio {

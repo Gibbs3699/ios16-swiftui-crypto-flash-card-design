@@ -13,6 +13,7 @@ class HomeViewModel: ObservableObject {
     @Published var allCoins: [CoinModel] = []
     @Published var statistics: [StatisticModel] = []
     @Published var portfolioCoins: [CoinModel] = []
+    @Published var searchText: String = ""
     private var coinDataService = CoinDataService()
     private var marketDataService = MarketDataService()
     private var cancellable = Set<AnyCancellable>()
