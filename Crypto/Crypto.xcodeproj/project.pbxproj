@@ -41,6 +41,7 @@
 		DCFD152F2A1B6AB50004661C /* MarketDataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD152E2A1B6AB50004661C /* MarketDataService.swift */; };
 		DCFD15312A1B6B720004661C /* MarketDataModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD15302A1B6B720004661C /* MarketDataModel.swift */; };
 		DCFD15332A1CAC830004661C /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD15322A1CAC830004661C /* SearchBarView.swift */; };
+		DCFD15352A1FBF3B0004661C /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD15342A1FBF3B0004661C /* UIApplication.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -77,6 +78,7 @@
 		DCFD152E2A1B6AB50004661C /* MarketDataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataService.swift; sourceTree = "<group>"; };
 		DCFD15302A1B6B720004661C /* MarketDataModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketDataModel.swift; sourceTree = "<group>"; };
 		DCFD15322A1CAC830004661C /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
+		DCFD15342A1FBF3B0004661C /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -138,6 +140,7 @@
 				DCC311FD29C6079C00E23278 /* CryptoApp.swift */,
 				DC98E14029C83F530050877C /* NetworkingManager.swift */,
 				DC98E16429CB54530050877C /* LocalFileManager.swift */,
+				DCFD15342A1FBF3B0004661C /* UIApplication.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -325,6 +328,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DCFD15352A1FBF3B0004661C /* UIApplication.swift in Sources */,
 				DC98E13D29C7492E0050877C /* DeveloperPreview.swift in Sources */,
 				DC98E13A29C748830050877C /* CoinModel.swift in Sources */,
 				DC98E16329CB53FC0050877C /* CoinDataService.swift in Sources */,
