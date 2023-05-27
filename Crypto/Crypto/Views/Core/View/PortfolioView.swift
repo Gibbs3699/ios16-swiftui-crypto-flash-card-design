@@ -19,14 +19,11 @@ struct PortfolioView: View {
                 }
             }
             .navigationTitle("Edit Portfilio")
-            .navigationBarItems(leading:
-                                    Button(action: {
-                presentationMode.wrappedValue.dismiss()
-            }, label: {
-                Image(systemName: "xmark")
-                    .font(.headline)
+            .toolbar(content: {
+                ToolbarItem(placement: .navigationBarLeading) {
+                    XMarkButton()
+                }
             })
-            )
         }
     }
 }

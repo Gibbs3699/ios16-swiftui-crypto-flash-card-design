@@ -43,6 +43,7 @@
 		DCFD15332A1CAC830004661C /* SearchBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD15322A1CAC830004661C /* SearchBarView.swift */; };
 		DCFD15352A1FBF3B0004661C /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD15342A1FBF3B0004661C /* UIApplication.swift */; };
 		DCFD15372A2261AB0004661C /* PortfolioView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD15362A2261AB0004661C /* PortfolioView.swift */; };
+		DCFD15392A2270590004661C /* XMarkButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCFD15382A2270590004661C /* XMarkButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -81,6 +82,7 @@
 		DCFD15322A1CAC830004661C /* SearchBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBarView.swift; sourceTree = "<group>"; };
 		DCFD15342A1FBF3B0004661C /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
 		DCFD15362A2261AB0004661C /* PortfolioView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortfolioView.swift; sourceTree = "<group>"; };
+		DCFD15382A2270590004661C /* XMarkButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XMarkButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -187,6 +189,7 @@
 				DCE8337C29E4653700E7FB28 /* CoinImageView.swift */,
 				DCE8338029E676F700E7FB28 /* CoinImageViewModel.swift */,
 				DCFD15322A1CAC830004661C /* SearchBarView.swift */,
+				DCFD15382A2270590004661C /* XMarkButton.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -355,6 +358,7 @@
 				DCE8338529FBB97C00E7FB28 /* StatisticCardView.swift in Sources */,
 				DCE8337F29E4745B00E7FB28 /* CoinImageService.swift in Sources */,
 				DCFD15372A2261AB0004661C /* PortfolioView.swift in Sources */,
+				DCFD15392A2270590004661C /* XMarkButton.swift in Sources */,
 				DCFD15332A1CAC830004661C /* SearchBarView.swift in Sources */,
 				DC98E16929CC543B0050877C /* CardViewModel.swift in Sources */,
 				DCFD15312A1B6B720004661C /* MarketDataModel.swift in Sources */,
