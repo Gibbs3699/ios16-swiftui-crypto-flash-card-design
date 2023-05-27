@@ -110,6 +110,11 @@ extension HomeView {
                                 .frame(width: 100, alignment: .leading)
                                 .offset(x: 90)
                         )
+                        .onTapGesture {
+                            if showPortfolio {
+                                showPortfolioView.toggle()
+                            }
+                        }
                 } else {
                     LottieView(lottieFile: "coin", loopMode: .loop)
                         .frame(width: 120, height: 120)
